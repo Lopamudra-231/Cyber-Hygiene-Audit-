@@ -1,21 +1,23 @@
-# Cyber Hygiene Audit
-
-## Objective
-Audit Password, Phishing, Device & Network security for a small setup and fix vulnerabilities.
+# Cyber Hygiene Project
 
 ## What I Did
-- Checked email leaks on HaveIBeenPwned
-- Phishing Simulation on 5 users - 60% Click Rate Found
-- Nmap Scan: `nmap 192.168.1.1/24` to find connected devices & open ports
-- Wireshark: Captured packets for 5 mins to analyze traffic
-- Enabled 2FA, Firewall, Windows Update & Changed Router Default Password
+- Analyzed common phishing email patterns
+- Created a report on password security, 2FA, and safe browsing
+- Identified how users fall for fake links
 
-## Findings
-- 2 High Risk, 3 Medium Risk, 2 Low Risk issues found
-- All issues remediated with proper documentation
+## Phishing Patterns Found
+1. Fake Bank KYC Update mail - Urgent tone
+2. Fake Job Offer mail - "You are selected" + Link
+3. Fake OTP mail - "Your account will be blocked"
+
+## What I Learned
+- Strong Password = 12+ character, Symbol + Number
+- 2FA ON is must for Gmail, WhatsApp, Banking
+- Never click link from unknown mail, always check sender email
+- Safe Browsing = Check HTTPS, Don't use public Wi-Fi for banking
 
 ## Tools Used
-Nmap | Wireshark | HaveIBeenPwned | Bitwarden | GoPhish
+HaveIBeenPwned, Google Password Checkup, 【entity-Canva¦canonical_name=Canva】 for Report
 
-## Skills Learned
-SOC Monitoring, Vulnerability Assessment, Incident Reporting, Cyber Hygiene
+## Skills
+Phishing Analysis | Password Security | 2FA | Cyber Awareness
